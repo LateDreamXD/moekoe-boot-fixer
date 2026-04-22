@@ -12,14 +12,8 @@
         "run_at": "document_end"
       }
     ],
-    "background": "background.iife.js",
-    "popup": {
-      "html": "popup.html",
-      "icon": "icon.png",
-      "title": "popup"
-    },
     "icons": {
-      "768": "icon.png"
+      "256": "icon.png"
     },
     "generator": "moekoe-plugin-template-ts"
   }

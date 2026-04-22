@@ -1,9 +1,11 @@
-const hello = (name: string) => {
-	new Notification(`hello ${name}`);
-}
-
 const init = () => {
-	hello('chrome-plugin-template');
+	if(location.hash === '#/') {
+		location.hash = '#/login';
+		location.reload();
+	}
+	if(location.hash === '#/login') {
+		location.hash = '#/';
+	}
 }
 
 if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
