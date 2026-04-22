@@ -18,10 +18,10 @@ export default defineConfig([
 		},
 		...shared
 	},
-	{
-		entry: {
-			background: 'src/background/index.ts'
-		},
-		...shared
-	}
+	// {
+	// 	entry: {
+	// 		background: 'src/background/index.ts'
+	// 	},
+	// 	...shared
+	// }
 ]);
