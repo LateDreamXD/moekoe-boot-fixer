@@ -4,6 +4,7 @@
     "outpath": "dist/manifest.json"
   },
   "meta": {
+    "min_moekoe_version": "1.6.2",
     "permissions": ["scripting"],
     "injects": [
       {

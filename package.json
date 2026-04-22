@@ -1,15 +1,18 @@
 {
-  "name": "moekoe-plugin-template-ts",
+  "name": "moekoe-boot-fixer",
   "type": "module",
   "private": true,
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "修复 MoeKoe Music 启动时的白屏问题",
   "scripts": {
     "build": "tsdown",
     "postbuild": "utils gen-manifest"
   },
-  "author": "",
-  "license": "",
+  "author": {
+    "name": "晚梦",
+    "url": "https://github.com/LateDreamXD"
+  },
+  "license": "WTFPL-2.0",
   "devDependencies": {
     "@latedream/moekoe-plugin-utils": "1.0.0-beta.2",
     "@types/node": "^25.5.0",
